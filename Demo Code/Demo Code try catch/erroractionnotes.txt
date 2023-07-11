@@ -1,0 +1,11 @@
+The ErrorActionPreference variable can be set to one of the following values:
+
+SilentlyContinue: This value causes PowerShell to suppress all error messages and continue with script execution. It is useful when you want to ignore errors and proceed with the remaining code.
+
+Stop: This value causes PowerShell to treat non-terminating errors as terminating errors. It means that when an error occurs, PowerShell will display an error message and stop executing the script.
+
+Continue: This value is the default setting. It displays the error message to the console, but the script execution continues. It is useful when you want to see the error messages but still continue running the script.
+
+Inquire: This value prompts the user to choose whether to continue or stop when an error occurs. PowerShell displays a confirmation message asking whether to continue or not.
+
+Suspend: This value behaves similarly to Inquire, but instead of prompting the user, it suspends the execution and waits for user input.
